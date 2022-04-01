@@ -1,4 +1,4 @@
-# Fluid + JindoFSx 存储加速/扩展系统高阶功能使用
+# Fluid + JindoFSx 存储加速系统高阶功能使用
 
 - 高阶功能
     - [挂载点在根目录下](#%E6%8C%82%E8%BD%BD%E7%82%B9%E5%9C%A8%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B)

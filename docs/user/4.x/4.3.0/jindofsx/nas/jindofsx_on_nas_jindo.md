@@ -6,9 +6,9 @@
 
 挂载步骤请参考 [Linux系统挂载NFS文件系统](https://help.aliyun.com/document_detail/90529.htm?spm=a2c4g.11186623.0.0.763d4c93XQH1Zc#table-bcw-ioo-ery)
 
-* 已部署 JindoFSx 存储加速/扩展系统
+* 已部署 JindoFSx 存储加速系统
 
-关于如何部署 JindoFSx 存储加速/扩展系统，请参考 [部署 JindoFSx 存储加速/扩展系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
+关于如何部署 JindoFSx 存储加速系统，请参考 [部署 JindoFSx 存储加速系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
 
 * 已部署 JindoSDK
 
@@ -94,7 +94,7 @@
 </configuration>
 ```
 
-完成以上配置后，作业读取 NAS 上的数据后，会自动缓存到 JindoFSx 存储加速/扩展系统中，后续访问相同的数据就能够命中缓存。
+完成以上配置后，作业读取 NAS 上的数据后，会自动缓存到 JindoFSx 存储加速系统中，后续访问相同的数据就能够命中缓存。
 注意：此配置为客户端配置，不需要重启 JindoFSx 服务。
 
 ## 挂载 NAS 文件系统目录
@@ -119,4 +119,4 @@ Found 2 items
 即访问`jindo://emr-header-1:8101/jindonas/`等价于访问`/mnt/nas/`
 
 ## 访问 NAS 文件系统
-完成上述步骤后作业通过`jindo://`前缀读取 NAS 上的数据后，会自动缓存到 JindoFSx 存储加速/扩展系统中，后续通过`jindo://`访问相同的数据就能够命中缓存。
+完成上述步骤后作业通过`jindo://`前缀读取 NAS 上的数据后，会自动缓存到 JindoFSx 存储加速系统中，后续通过`jindo://`访问相同的数据就能够命中缓存。

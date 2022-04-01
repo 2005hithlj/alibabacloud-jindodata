@@ -10,9 +10,9 @@ JindoFuse 透明缓存加速可以利用计算集群的闲置存储资源进行�
 
 挂载步骤请参考 [Linux系统挂载NFS文件系统](https://help.aliyun.com/document_detail/90529.htm?spm=a2c4g.11186623.0.0.763d4c93XQH1Zc#table-bcw-ioo-ery)
 
-* 已部署 JindoFSx 存储加速/扩展系统
+* 已部署 JindoFSx 存储加速系统
 
-关于如何部署 JindoFSx 存储加速/扩展系统，请参考 [部署 JindoFSx 存储加速/扩展系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
+关于如何部署 JindoFSx 存储加速系统，请参考 [部署 JindoFSx 存储加速系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
 
 * 已部署 JindoSDK
 

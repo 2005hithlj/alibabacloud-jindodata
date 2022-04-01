@@ -79,4 +79,4 @@ jindo table -listTables -db db1
 
 #### cacheTable/uncacheTable 命令
 
-仅支持配备 JindoFSx 存储加速/扩展系统的场景，请参考 [使用 JindoTable 缓存 Hive 表或分区的数据](/docs/user/4.x/4.3.0/jindofsx/jindotable/table_cache.md)
+仅支持配备 JindoFSx 存储加速系统的场景，请参考 [使用 JindoTable 缓存 Hive 表或分区的数据](/docs/user/4.x/4.3.0/jindofsx/jindotable/table_cache.md)

@@ -1,12 +1,12 @@
-# JindoFSx 存储加速/扩展系统用户文档
+# JindoFSx 存储加速系统用户文档
 
 ## 快速入门
-* [JindoFSx 存储加速/扩展系统快速入门](/docs/user/4.x/4.3.0/jindofsx/jindofsx_quickstart.md)
+* [JindoFSx 存储加速系统快速入门](/docs/user/4.x/4.3.0/jindofsx/jindofsx_quickstart.md)
 
 ## 集群部署
-* [快速部署一个简单的 JindoFSx 存储加速/扩展系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
-* [部署高可用 JindoFSx 存储加速/扩展系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_raft_ns.md)
-* [基于 Prometheus + Grafana 搭建 JindoFSx 存储加速/扩展系统可视化指标观测平台](/docs/user/4.x/4.3.0/jindofsx/jindofsx_metrics.md)
+* [快速部署一个简单的 JindoFSx 存储加速系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
+* [部署高可用 JindoFSx 存储加速系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_raft_ns.md)
+* [基于 Prometheus + Grafana 搭建 JindoFSx 存储加速系统可视化指标观测平台](/docs/user/4.x/4.3.0/jindofsx/jindofsx_metrics.md)
 
 ## 基本功能
 #### 阿里云 OSS 缓存加速
@@ -74,8 +74,8 @@
 * [JindoFuse 读写 JindoFSx 缓存(oss://路径挂载)](/docs/user/4.x/4.3.0/jindofsx/jindo_fuse/jindo_fuse_on_oss.md)
 * [JindoFuse 读写 JindoFSx 缓存(jindo://路径挂载)](/docs/user/4.x/4.3.0/jindofsx/jindo_fuse/jindo_fuse_on_jindo.md)
 
-#### Fluid + JindoFSx 存储加速/扩展系统云原生
-* [Fluid 结合 JindoFSx 存储加速/扩展系统介绍和使用](jindo_fluid/jindo_fluid_overview.md)
+#### Fluid + JindoFSx 存储加速系统云原生
+* [Fluid 结合 JindoFSx 存储加速系统介绍和使用](jindo_fluid/jindo_fluid_overview.md)
 
 ## 最佳实践
 #### 使用 JindoTable 缓存 Hive 表或分区的数据

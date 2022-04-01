@@ -1,13 +1,13 @@
 # S3、COS、OBS 多云存储支持
 
-JindoFSx 存储加速/扩展系统提供了透明缓存和统一挂载命名空间的使用方式，支持多种 scheme 的云存储。文件都以对象的形式存储在云存储上，每个文件根据实际访问情况会在本地进行缓存，提升访问云存储的效率，同时兼容了原有云存储文件形式，数据访问上能够与其他云存储客户端完全兼容，作业访问云存储的方式无需做任何修改。
+JindoFSx 存储加速系统提供了透明缓存和统一挂载命名空间的使用方式，支持多种 scheme 的云存储。文件都以对象的形式存储在云存储上，每个文件根据实际访问情况会在本地进行缓存，提升访问云存储的效率，同时兼容了原有云存储文件形式，数据访问上能够与其他云存储客户端完全兼容，作业访问云存储的方式无需做任何修改。
 
 本文主要介绍 JindoFSx 支持 S3、COS、OBS 透明缓存加速和统一挂载缓存加速的使用方式。
 
 ## 前提条件：
-* 已部署 JindoFSx 存储加速/扩展系统
+* 已部署 JindoFSx 存储加速系统
 
-关于如何部署 JindoFSx 存储加速/扩展系统，请参考 [部署 JindoFSx 存储加速/扩展系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
+关于如何部署 JindoFSx 存储加速系统，请参考 [部署 JindoFSx 存储加速系统](/docs/user/4.x/4.3.0/jindofsx/deploy/deploy_jindofsx.md)
 
 * 已部署 JindoSDK
 
@@ -197,7 +197,7 @@ sh sbin/start-service.sh
 </configuration>
 ```
 
-完成以上配置后，作业读取多云存储上的数据后，会自动缓存到 JindoFSx 存储加速/扩展系统中，后续访问相同的数据就能够命中缓存。
+完成以上配置后，作业读取多云存储上的数据后，会自动缓存到 JindoFSx 存储加速系统中，后续访问相同的数据就能够命中缓存。
 注意：此配置为客户端配置，不需要重启 JindoFSx 服务。
 
 ## 磁盘空间水位控制
@@ -262,7 +262,7 @@ Found 1 items
 即访问`jindo://emr-header-1:8101/jindos3/`等价于访问`s3://<Bucket>/`
 
 ## 访问 AWS S3
-完成上述步骤后作业通过`jindo://`前缀读取 S3 上的数据后，会自动缓存到 JindoFSx 存储加速/扩展系统中，后续通过`jindo://`访问相同的数据就能够命中缓存。
+完成上述步骤后作业通过`jindo://`前缀读取 S3 上的数据后，会自动缓存到 JindoFSx 存储加速系统中，后续通过`jindo://`访问相同的数据就能够命中缓存。
 
 ## 参数调优
 JindoSDK 包含一些高级调优参数，配置方式以及配置项参考文档 [JindoSDK 配置项列表](../configuration/jindosdk_configuration_list.md)
